@@ -1,4 +1,5 @@
 require 'chronic'
+require 'time'
 require 'hashie'
 
 module Tapuzit
@@ -15,6 +16,14 @@ module Tapuzit
       property :recipient, coerce: String
       property :message, coerce: String
       property :timestamp, coerce: String #FIXME this needs to be coerced to a Time
+
+      def to_time
+        Chronic.parse self.timestamp
+      end
+
+      def to_seconds
+        self.to_time.strftime('%s')
+      end
 
     end
   end

@@ -22,7 +22,8 @@ module Tapuzit
 
     post :message do
       m = Tapuzit::Types::Message.new(params)
-      logger.debug m.inspect
+      logger.debug "time: #{m.to_time}"
+      logger.debug "seconds: #{m.to_seconds}"
     end
 
   end
