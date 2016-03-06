@@ -2,7 +2,9 @@ PATH
   remote: .
   specs:
     tapuzit (0.1.0)
+      chronic (~> 0.10)
       grape (~> 0.14)
+      hashie (~> 3.4)
       puma (~> 3.1)
       resque-scheduler (~> 4.1)
       telegram-bot-ruby (~> 0.4)
@@ -26,6 +28,7 @@ GEM
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
     cd (1.0.1)
+    chronic (0.10.2)
     clipboard (1.0.6)
     code (0.9.0)
       coderay (~> 1.1)

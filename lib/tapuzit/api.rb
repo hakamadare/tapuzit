@@ -20,5 +20,10 @@ module Tapuzit
       logger.send(level.to_sym, message)
     end
 
+    post :message do
+      m = Tapuzit::Types::Message.new(params)
+      logger.debug m.inspect
+    end
+
   end
 end
