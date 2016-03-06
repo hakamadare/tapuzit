@@ -1,3 +1,4 @@
+require "tapuzit/api"
 require "tapuzit/version"
 
 module Tapuzit
