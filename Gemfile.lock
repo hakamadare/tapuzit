@@ -1,15 +1,3 @@
-PATH
-  remote: .
-  specs:
-    tapuzit (0.1.0)
-      chronic (~> 0.10)
-      grape (~> 0.14)
-      hashie (~> 3.4)
-      puma (~> 3.1)
-      resque-scheduler (~> 4.1)
-      telegram-bot-ruby (~> 0.4)
-      yell (~> 2.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -186,10 +174,16 @@ PLATFORMS
 DEPENDENCIES
   binding_of_caller (~> 0.7)
   bundler (~> 1.11)
+  chronic (~> 0.10)
+  grape (~> 0.14)
+  hashie (~> 3.4)
   irbtools
+  puma (~> 3.1)
   rake (~> 10.0)
+  resque-scheduler (~> 4.1)
   rspec (~> 3.0)
-  tapuzit!
+  telegram-bot-ruby (~> 0.4)
+  yell (~> 2.0)
 
 BUNDLED WITH
    1.11.2
