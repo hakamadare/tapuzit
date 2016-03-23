@@ -28,7 +28,8 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "grape", "~> 0.14"
   spec.add_runtime_dependency "hashie", "~> 3.4"
   spec.add_runtime_dependency "puma", "~> 3.1"
-  spec.add_runtime_dependency "resque-scheduler", "~> 4.1"
+  spec.add_runtime_dependency "rufus-scheduler", "~> 3.2"
+  spec.add_runtime_dependency "sidekiq", "~> 4.1"
   spec.add_runtime_dependency "telegram-bot-ruby", "~> 0.4"
   spec.add_runtime_dependency "yell", "~> 2.0"
 
