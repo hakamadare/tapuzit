@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
 
   spec.add_runtime_dependency "chronic", "~> 0.10"
-  spec.add_runtime_dependency "grape", "~> 0.14"
+  spec.add_runtime_dependency "grape", ">= 0.14", "< 2.0"
   spec.add_runtime_dependency "hashie", "~> 3.4"
   spec.add_runtime_dependency "puma", "~> 3.1"
   spec.add_runtime_dependency "rufus-scheduler", "~> 3.2"
