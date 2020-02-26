@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 group :production do
   gem 'chronic', '~> 0.10'
-  gem 'grape', '~> 0.14'
+  gem 'grape', '~> 1.1'
   gem 'hashie', '~> 3.4'
   gem 'puma', '~> 3.1'
   gem 'rufus-scheduler', '~> 3.2'
