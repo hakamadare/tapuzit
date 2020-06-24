@@ -39,7 +39,7 @@ GEM
     fancy_irb (1.0.2)
       paint (>= 0.9, < 2.0)
       unicode-display_width (~> 1.0)
-    ffi (1.9.10)
+    ffi (1.12.2)
     gene_pool (1.4.1)
       thread_safe
     grape (0.14.0)
