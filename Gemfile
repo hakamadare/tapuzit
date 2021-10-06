@@ -6,7 +6,7 @@ group :production do
   gem 'hashie', '~> 3.4'
   gem 'puma', '~> 3.1'
   gem 'rufus-scheduler', '~> 3.2'
-  gem 'sidekiq', "~> 4.1"
+  gem 'sidekiq', "~> 5.2"
   gem 'telegram-bot-ruby', '~> 0.4'
   gem 'yell', '~> 2.0'
 end
