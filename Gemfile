@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 group :production do
   gem 'chronic', '~> 0.10'
-  gem 'grape', '~> 0.14'
+  gem 'grape', '~> 0.15', '>= 0.15.0'
   gem 'hashie', '~> 3.4'
   gem 'puma', '~> 3.1'
   gem 'rufus-scheduler', '~> 3.2'
@@ -14,7 +14,7 @@ end
 group :development, :test do
   gem 'binding_of_caller', '~> 0.7'
   gem 'bundler', '~> 1.11'
-  gem 'irbtools', require: 'irbtools/binding'
+  gem 'irbtools', '>= 2.1.0', require: 'irbtools/binding'
   gem 'rake', '~> 12.3', '>= 12.3.3'
   gem 'rspec', '~> 3.0'
 end
