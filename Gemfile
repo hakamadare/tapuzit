@@ -7,7 +7,7 @@ group :production do
   gem 'puma', '~> 3.1'
   gem 'rufus-scheduler', '~> 3.2'
   gem 'sidekiq', "~> 4.1"
-  gem 'telegram-bot-ruby', '~> 0.4'
+  gem 'telegram-bot-ruby', '~> 0.5', '>= 0.5.0'
   gem 'yell', '~> 2.0'
 end
 
